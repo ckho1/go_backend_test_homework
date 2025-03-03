@@ -30,7 +30,7 @@ req:
 		t.Errorf("File doesn't exist - %s", reqFile)
 	}
 }
-
+// /// ////// //////
 func TestSumFunc(t *testing.T) {
 
 	type args struct {
